@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#09090b"/>
+  <!-- Subtle grid pattern -->
+  <g opacity="0.06" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="0" x2="1200" y2="630"/>
+    <line x1="400" y1="0" x2="1200" y2="530"/>
+    <line x1="800" y1="0" x2="1200" y2="260"/>
+    <line x1="0" y1="200" x2="800" y2="630"/>
+    <line x1="0" y1="400" x2="400" y2="630"/>
+  </g>
+  <!-- PT Monogram -->
+  <g transform="translate(460, 120) scale(0.55)">
+    <!-- P -->
+    <path d="M96 96 L96 416 L144 416 L144 288 L224 288 C280 288 320 248 320 208 L320 176 C320 136 280 96 224 96 Z M144 144 L224 144 C252 144 272 160 272 176 L272 208 C272 224 252 240 224 240 L144 240 Z" fill="url(#grad)"/>
+    <!-- T -->
+    <path d="M288 96 L288 144 L368 144 L368 416 L416 416 L416 144 L464 144 L464 96 Z" fill="url(#grad)"/>
+  </g>
+  <!-- Name -->
+  <text x="600" y="420" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#fafafa">Paul Truitt</text>
+  <!-- Title -->
+  <text x="600" y="475" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="400" fill="url(#textGrad)">AI Engineer</text>
+  <!-- Domain -->
+  <text x="600" y="560" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="400" fill="#71717a">paultruitt.dev</text>
+</svg>
